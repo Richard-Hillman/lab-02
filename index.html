@@ -12,40 +12,65 @@
     <title>Document</title>
 </head>
 
+
+<!-- body---------------------------------------------------------------------------------------------- -->
+
+
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
-        </div>
+        
     </header>
-    <main>
-        <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
 
-            <content>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
+
+<!-- main----------------------------------------------------------------------------------------------- -->
+  
+
+    <main>
+
+        <section>
+            <h1> The Number Guessing Game! </h1>
+
+            <article>The name of the game is to guess a number and try to match <br> 
+                the mystery number. The mystery number is chosen at the beginning <br>
+                 of every run and you will have four guesses to try and figure out <br>
+                  what number it is. You will recieve hints in the clue section to <br>
+                   guess either higher or lower than your previous guess. SO to get <br> 
+                   started go ahead and put your guess in the input and select <br>
+                    GUESS!</article>
+                   
+                    <br>
+
+            <input type=number id='user-guess'>Your Guess Here</input>
+           
+            <br>
+
+            <button id='guess-button'>GUESS!</button>
+           
+            <br>
+
+            
+            <p>Number of Guesses Remaining:
+                <span id='rem-guesses'><h4>4</h4></span>
             </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
+        
+            <h3>Clue: <span id='higher-lower'> - </span></h3>
+
+            <br>
+
+            <h2>Mystery Number: <span id='mystery-number'>?</span></h2>
+
+            <div id='win-lose'>You've WON!!!</div>
 
         </section>
+
     </main>
+
+
+<!-- footer--------------------------------------------------------------------------------------------- -->
+
+
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+    
     </footer>
 
     <script type="module" src="app.js"></script>
