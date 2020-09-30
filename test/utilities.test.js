@@ -1,31 +1,12 @@
-// input
-// button 
-// text content to show too high or too low
-// text content box for guesses left 
-// Random number (will be a function)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 
+import { randomWare } from '../utilities.js';
+
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('create a random number', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = true;
