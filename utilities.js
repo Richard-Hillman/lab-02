@@ -4,7 +4,23 @@ export function randomWare() {
     return Math.ceil(Math.random() * 20);
 } 
 
-// return mysteryNumber.textcontent;
+// function that converts compares results of random and user
+
+export function compareTwoNum(random, user) { 
+   
+    if (random === user) {
+        return 0;
+    }
+    if (random > user) {
+        return 1;
+    }
+    if (random < user) {
+        return -1;
+    }
+    
+}
+
+
 
 
 
