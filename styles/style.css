@@ -106,7 +106,13 @@ footer {
     animation: pulse 5s infinite ease-in-out;
 }
 
+.mainer {
+    background-image: url('../mustache.png');
+}
 
+.submain {
+    border: solid 2px black;
+}
 /* IDs---------------------------------------------------------------------------------------------------------------------------------- */
 
 #mNumber {
